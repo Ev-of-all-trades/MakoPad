@@ -3,7 +3,7 @@ This is a 6 key macropad that I designed in KiCad and is programmed with QMK. It
 
 PCB and Schematic
 -----------------------------------------------------
-<img width="1676" height="1225" alt="image" src="https://github.com/user-attachments/assets/4083631f-f20a-4996-b578-f4484fbd3fc9" />
+<img width="2098" height="1528" alt="image" src="https://github.com/user-attachments/assets/74763e13-70dc-4965-8f99-37fbe39d7004" />
 <img width="3107" height="1631" alt="image" src="https://github.com/user-attachments/assets/62b76fd1-a980-49db-94bc-8498295702bf" />
 
 Below is are pictures of some of the assemblies I made in Fusion 360.
