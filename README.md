@@ -8,5 +8,8 @@ PCB and Schematic
 
 Below is are pictures of some of the assemblies I made in Fusion 360.
 ------------------------------------------------------------------------------------
-Assembly of the PCB and just the components that are directly soldered on to it
-<img width="3840" height="2056" alt="image" src="https://github.com/user-attachments/assets/9fbdddfc-cffd-49e7-b658-9b434e072940" />
+PCB Assembly
+<img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
+
+Full PCB Assembly
+< to come later >
