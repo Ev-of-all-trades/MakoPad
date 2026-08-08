@@ -11,5 +11,5 @@ Below is are pictures of some of the assemblies I made in Fusion 360.
 PCB Assembly
 <img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
 
-Full PCB Assembly
-< to come later >
+Full PCB Assembly [mind the crappy screen model, i couldn't find a better one since there wasn't any for the specific onw i wanted to use]
+
