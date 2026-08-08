@@ -12,4 +12,4 @@ PCB Assembly
 <img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
 
 Full PCB Assembly [mind the crappy screen model, i couldn't find a better one since there wasn't any for the specific onw i wanted to use]
-
+<img width="2356" height="1253" alt="image" src="https://github.com/user-attachments/assets/54f817a4-e1f1-4183-9e54-34b0d2069917" />
