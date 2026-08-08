@@ -13,3 +13,31 @@ PCB Assembly
 
 Full PCB Assembly [mind the crappy screen model, i couldn't find a better one since there wasn't any for the specific onw i wanted to use]
 <img width="2356" height="1253" alt="image" src="https://github.com/user-attachments/assets/54f817a4-e1f1-4183-9e54-34b0d2069917" />
+
+Here is the plan for developing the programming
+--------------------------------------------------
+Phase 1: Keyboard matrix
+> Program the keyboard matrix and build the layers
+> Test matrix to make sure it works
+
+Phase 2: Rotary encoder
+> Add the rotary encoder and rotary encoder switch into the programming
+> Program the special functions for the rotary encoder
+  - Make it so that whenever the rotary encoder is pressed down, you can rotate the knob to select what function you want to rotary encoder to do
+> Test rotation and clicking
+
+Phase 3: Layer buttons
+> Program the button to change the keyboard matrix layers
+  - The top button switches to the next layer and the bottom one switches to the previous layer
+
+Phase 4: The display
+> Make the display interface with the microcontroller
+
+Phase 5: Make it awesome
+> Layer-dependent key labels
+> Encoder modes
+> Custom macros
+> Startup screen
+> MakoPad logo
+> Current layer display
+> Key function display
