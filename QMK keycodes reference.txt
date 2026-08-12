@@ -1,0 +1,300 @@
+QMK Keycodes (KC) Reference
+This file lists all available keycodes in the KC namespace for easy reference
+ 
+THE COMMENT WITH A # NEXT TO IT ARE OTHER WAYS THAT THAT COMMAND CAN BE WRITTEN
+anything with a // before it is a description of what that command does 
+
+Modifiers
+------------
+KC_LCTL  	// Left Ctrl key
+KC_LSFT    	// Left Shift key
+KC_LALT		// Left Alt key
+KC_LGUI		// Left Super/Windows/Command key
+KC_RCTL		// Right Ctrl key
+KC_RSFT		// Right Shift key
+KC_RALT		// Right Alt key
+KC_RGUI		// Right Super/Windows/Command key
+KC_MEH		// Left Ctrl + Alt + Shift combination
+KC_HYPR		// Left Ctrl + Alt + Shift + Super combination
+
+Letters (A-Z)
+---------------
+KC_A    // Letter A key
+KC_B    // Letter B key
+KC_C    // Letter C key
+KC_D    // Letter D key
+KC_E    // Letter E key
+KC_F    // Letter F key
+KC_G    // Letter G key
+KC_H    // Letter H key
+KC_I    // Letter I key
+KC_J    // Letter J key
+KC_K    // Letter K key
+KC_L    // Letter L key
+KC_M    // Letter M key
+KC_N    // Letter N key
+KC_O    // Letter O key
+KC_P    // Letter P key
+KC_Q    // Letter Q key
+KC_R    // Letter R key
+KC_S    // Letter S key
+KC_T    // Letter T key
+KC_U    // Letter U key
+KC_V    // Letter V key
+KC_W    // Letter W key
+KC_X    // Letter X key
+KC_Y    // Letter Y key
+KC_Z    // Letter Z key
+
+Numbers (1-0)
+-------------
+# Also accessible as KC.1, KC.2, etc.
+KC_1    // Number 1 key
+KC_2    // Number 2 key
+KC_3    // Number 3 key
+KC_4    // Number 4 key
+KC_5    // Number 5 key
+KC_6    // Number 6 key
+KC_7    // Number 7 key
+KC_8    // Number 8 key
+KC_9    // Number 9 key
+KC_0    // Number 0 key 
+
+Basic Keys
+------------
+KC_HYPR		// Return/Enter key
+KC_ESC		// Escape key
+KC_BSPC		// Backspace key
+KC_TAB		// Tab key
+KC_SPC		// Space bar
+KC_MINS		// Minus/Hyphen key
+KC_EQL		// Equal/Plus key
+KC_LBRC		// Left bracket key
+KC_RBRC		// Right bracket key
+KC_BSLS		// Backslash key
+KC_SCLN		// Semicolon key
+KC_QUOT		// Single quote key
+KC_GRV		// Backtick/Grave key
+KC_COMM		// Comma key
+KC_DOT		// Period/Dot key
+KC_SLSH		// Forward slash key
+
+Function Keys
+-------------
+KC_F1     	// Function key 1
+KC_F2     	// Function key 2
+KC_F3     	// Function key 3
+KC_F4     	// Function key 4
+KC_F5     	// Function key 5
+KC_F6     	// Function key 6
+KC_F7     	// Function key 7
+KC_F8     	// Function key 8
+KC_F9     	// Function key 9
+KC_F10    	// Function key 10
+KC_F11    	// Function key 11
+KC_F12    	// Function key 12
+KC_F13    	// Function key 13
+KC_F14    	// Function key 14
+KC_F15    	// Function key 15
+KC_F16    	// Function key 16
+KC_F17    	// Function key 17
+KC_F18    	// Function key 18
+KC_F19    	// Function key 19
+KC_F20    	// Function key 20
+KC_F21    	// Function key 21
+KC_F22    	// Function key 22
+KC_F23    	// Function key 23
+KC_F24    	// Function key 24
+
+Lock Keys & Navigation
+----------------------
+KC_CAPS		// Caps Lock toggle
+KC_PSCR		// Print Screen key
+KC_SCRL		// Scroll Lock toggle
+KC_PAUS		// Pause/Break key
+KC_INS		// Insert key
+KC_HOME		// Home key (move to start of line/document)
+KC_PGUP		// Page Up key
+KC_DEL		// Delete key
+KC_END		// End key (move to end of line/document)
+KC_PGDN		// Page Down key
+KC_RGHT	        // Right arrow key
+KC_LEFT         // Left arrow key
+KC_DOWN         // Down arrow key
+KC_UP           // Up arrow key
+
+Numpad
+--------
+KC_NUM		// Num Lock toggle
+KC_PSLS		// Numpad / key
+KC_PAST		// Numpad * key
+KC_PMNS		// Numpad - key
+KC_PPLS		// Numpad + key
+KC_PENT		// Numpad Enter key
+KC_P1		// Numpad 1 key
+KC_P2		// Numpad 2 key
+KC_P3		// Numpad 3 key
+KC_P4		// Numpad 4 key
+KC_P5		// Numpad 5 key
+KC_P6		// Numpad 6 key
+KC_P7		// Numpad 7 key
+KC_P8		// Numpad 8 key
+KC_P9		// Numpad 9 key
+KC_P0		// Numpad 0 key
+KC_PDOT		// Numpad . key
+KC_PEQL		// Numpad = key
+KC_PCMM		// Numpad , key
+KC_PEQL		// Numpad = key (AS400 variant)
+
+Shifted/Symbol Keys
+-------------------
+KC_TILD		// Tilde key (~)
+KC_EXLM		// Exclamation mark (!)
+KC_AT		// At symbol (@)
+KC_HASH		// Hash/Pound symbol (#)
+KC_DLR		// Dollar sign ($)
+KC_PERC		// Percent sign (%)
+KC_CIRC		// Caret/Circumflex (^)
+KC_AMPR		// Ampersand (&)
+KC_ASTR		// Asterisk (*)
+KC_LPRN		// Left parenthesis (
+KC_RPRN		// Right parenthesis )
+KC_UNDS		// Underscore (_)
+KC_PLUS         // Plus sign (+)
+KC_LCBR		// Left curly brace ({)
+KC_RCBR		// Right curly brace (})
+KC_PIPE		// Pipe character (|)
+KC_COLN		// Colon (:)
+KC_DQUO		// Double quote (")
+KC_LABK		// Less than (<)
+KC_RABK		// Greater than (>)
+KC_QUES		// Question mark (?)
+
+International Keys
+------------------
+KC_NUHS		// Non-US Hash key
+KC_NUBS		// Non-US Backslash key
+KC_APP          // Application/Context menu key
+KC_INT1         // International 1 (RO key on Japanese keyboards)
+KC_INT2       	// International 2 (Kana key on Japanese keyboards)
+KC_INT3         // International 3 (Yen key on Japanese keyboards)
+KC_INT4         // International 4 (Henkan key on Japanese keyboards)
+KC_INT5         // International 5 (Muhenkan key on Japanese keyboards)
+KC_INT6         // International 6 key
+KC_INT7         // International 7 key
+KC_INT8         // International 8 key
+KC_INT9         // International 9 key
+KC_LANG1        // Language 1 (Hangul/English on Korean keyboards)
+KC_LANG2        // Language 2 (Hanja on Korean keyboards)
+KC_LANG3        // Language 3 key
+KC_LANG4        // Language 4 key
+KC_LANG5        // Language 5 key
+KC_LANG6        // Language 6 key
+KC_LANG7        // Language 7 key
+KC_LANG8        // Language 8 key
+KC_LANG9        // Language 9 key
+
+Consumer/Media Keys
+-------------------
+KC_MUTE         // Mute audio output
+KC_VOLU         // Increase volume
+KC_VOLD		// Decrease volume
+KC_MNXT		// Next track/song
+KC_MPRV		// Previous track/song
+KC_MSTP		// Stop playback
+KC_MPLY		// Play/Pause toggle
+KC_EJCT		// Eject media
+KC_MFFD		// Fast forward
+KC_MRWD		// Rewind
+
+Special/Internal Keys
+---------------------
+KC_NO		   	// No key / do nothing
+KC_TRNS		   	// Transparent / pass through to lower layer
+QK_REBOOT	   	// Reset the keyboard firmware
+QK_BOOT		   	// Enter bootloader mode for firmware update
+QK_DEBUG_TOGGLE	   	// Enable debug mode
+KC_GESC		   	// Grave ESC (ESC on tap, ~` on press)
+KC_GESC		   	// Grave ESC (ESC on tap, ~` on press)
+
+RGB Control Keys
+----------------
+UG_TOGG			// Toggle RGB on/off
+UG_HUEU			// Increase RGB hue
+UG_HUED			// Decrease RGB hue
+UG_SATU			// Increase RGB saturation
+UG_SATD			// Decrease RGB saturation
+UG_VALU			// Increase RGB value/brightness
+UG_VALD			// Decrease RGB value/brightness
+UG_SPDU			// Increase RGB animation speed
+UG_SPDD		 	// Decrease RGB animation speed
+UG_NEXT			// Solid color mode
+
+LED Control Keys
+----------------
+BL_TOGG			// Toggle LED on/off
+BL_UP			// Increase LED brightness
+BL_DOWN			// Decrease LED brightness
+BL_ON / BL_STEP		// keycode depends on desired behavior
+BL_BRTG			// Breathing LED animation mode
+
+Leader Key
+------------
+QK_LEAD		// starts a QMK leader sequence
+
+Layer Keys (require arguments)
+------------------------------
+MO(layer)		// Activate layer while held
+DF(layer)		// Set default/base layer
+LM(layer, modifier)	// Activate layer with modifier keys
+LT(layer, key)		// Activate layer on hold, tap key on press
+TG(layer)		// Toggle layer on/off
+TO(layer)		// Switch to specific layer
+TT(layer)		// Toggle layer on double tap, momentary on hold
+
+Mod Tap
+---------
+MT(mod, key)		// Hold for modifier, tap for key
+
+Macro & Sequence Commands
+-------------------------
+wait_ms(100);  		// Add delay in milliseconds between keypresses
+SEND_STRING("text");    // Type out a string character by character (auto-shifts capitals)
+
+FRC Programming Macros
+----------
+LCTL(LALT(KC_B))	// Build
+LCTL(LALT(KC_D))	// Deploy
+LCTL(LALT(KC_S))	// Simulate
+LCTL(LALT(KC_G))	// Debug
+LCTL(LALT(KC_R))  	// Start RioLog
+LCTL(LALT(KC_P))  	// Open Driver Station
+LCTL(LALT(KC_T))  	// Terminal
+LCTL(LALT(KC_E))  	// Save All Files
+LCTL(LALT(KC_M))  	// Start Shuffleboard
+LCTL(LALT(KC_F))  	// Git Pull
+LCTL(LALT(KC_H))  	// Git Push
+LCTL(LALT(KC_C))  	// Commit
+LCTL(LALT(KC_W))  	// File Browser
+LCTL(LALT(KC_L))  	// Camera stream / Limelight
+LCTL(LALT(KC_T))  	// Test Robot Code
+LCTL(LALT(KC_Q))  	// Stop Robot Code
+
+Limelight Macros [when you press the key that has the IP adress assigned to it, open the browser and press the key to instantly paste it into the browser]
+----------------
+SEND_STRING("10.51.99.11:5801")		// Left Limelight
+SEND_STRING("10.51.99.12:5801")		// Front Limelight
+SEND_STRING("10.51.99.13:5801")		// Right Limelight
+
+
+Driver Station Macros
+---------------------
+LCTL(LALT(KC_E))	// Enable
+LCTL(LALT(KC_D))	// Disable
+LCTL(LALT(KC_T))	// Switch Mode: Teleop
+LCTL(LALT(KC_A))	// Switch Mode: Auto
+LCTL(LALT(KC_S))	// Switch Mode: Test
+LCTL(LALT(KC_Q))	// E-Stop
+LCTL(LALT(KC_R))	// Start DS data logging
+LCTL(LALT(KC_X))	// Stop DS data logging
+LCTL(LALT(KC_L))	// Dashboard Refresh
