@@ -3,7 +3,7 @@ This is a 6 key macropad that I designed in KiCad and is programmed with QMK. It
 
 PCB and Schematic
 -----------------------------------------------------
-<img width="2078" height="1543" alt="image" src="https://github.com/user-attachments/assets/92ee47e6-2d54-49a4-b359-50bd2f3b2339" />
+<img width="2223" height="1600" alt="image" src="https://github.com/user-attachments/assets/664de750-03a9-413b-8121-444d038ea296" />
 <img width="3290" height="1649" alt="image" src="https://github.com/user-attachments/assets/26af7d6d-4ce1-476b-a800-9822942498cc" />
 
 Below is are pictures of some of the assemblies I made in Fusion 360.
@@ -11,7 +11,7 @@ Below is are pictures of some of the assemblies I made in Fusion 360.
 PCB Assembly
 <img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
 
-Full PCB Assembly [mind the crappy screen model, i couldn't find a better one since there wasn't any for the specific onw i wanted to use]
+Full PCB Assembly [mind the crappy displau model, i couldn't find a better one since there wasn't any for the specific one i wanted to use]
 <img width="2356" height="1253" alt="image" src="https://github.com/user-attachments/assets/54f817a4-e1f1-4183-9e54-34b0d2069917" />
 
 Here is the plan for developing the programming
