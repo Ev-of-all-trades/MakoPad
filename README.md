@@ -6,13 +6,10 @@ PCB and Schematic
 <img width="2223" height="1600" alt="image" src="https://github.com/user-attachments/assets/664de750-03a9-413b-8121-444d038ea296" />
 <img width="3290" height="1649" alt="image" src="https://github.com/user-attachments/assets/26af7d6d-4ce1-476b-a800-9822942498cc" />
 
-Below is are pictures of some of the assemblies I made in Fusion 360.
+Below is A picture of the assembly I made in Fusion 360.
 ------------------------------------------------------------------------------------
-PCB Assembly
-<img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
-
-Full PCB Assembly [mind the crappy displau model, i couldn't find a better one since there wasn't any for the specific one i wanted to use]
-<img width="2356" height="1253" alt="image" src="https://github.com/user-attachments/assets/54f817a4-e1f1-4183-9e54-34b0d2069917" />
+PCB Assembly [mind the crappy displau model, i couldn't find a better one since there wasn't any for the specific one i wanted to use]
+<img width="2519" height="1322" alt="image" src="https://github.com/user-attachments/assets/8a46ffd3-0f48-4693-9b92-b076cdbb357c" />
 
 Here is the plan for developing the programming
 --------------------------------------------------
