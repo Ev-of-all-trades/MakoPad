@@ -9,7 +9,7 @@ PCB and Schematic
 Below is A picture of the assembly I made in Fusion 360.
 ------------------------------------------------------------------------------------
 PCB Assembly [mind the crappy displau model, i couldn't find a better one since there wasn't any for the specific one i wanted to use]
-<img width="2519" height="1322" alt="image" src="https://github.com/user-attachments/assets/8a46ffd3-0f48-4693-9b92-b076cdbb357c" />
+<img width="2282" height="1468" alt="image" src="https://github.com/user-attachments/assets/a0eaaf5a-b31b-4a60-b94b-13b90e0ab802" />
 
 Here is the plan for developing the programming
 --------------------------------------------------
