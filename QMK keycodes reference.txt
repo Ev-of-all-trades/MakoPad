@@ -67,17 +67,17 @@ KC_ESC		// Escape key
 KC_BSPC		// Backspace key
 KC_TAB		// Tab key
 KC_SPC		// Space bar
-KC_MINS		// Minus/Hyphen key
-KC_EQL		// Equal/Plus key
-KC_LBRC		// Left bracket key
-KC_RBRC		// Right bracket key
-KC_BSLS		// Backslash key
-KC_SCLN		// Semicolon key
-KC_QUOT		// Single quote key
-KC_GRV		// Backtick/Grave key
-KC_COMM		// Comma key
-KC_DOT		// Period/Dot key
-KC_SLSH		// Forward slash key
+KC_MINS		// (-) key
+KC_EQL		// =/+ key
+KC_LBRC		// [ key
+KC_RBRC		// ] key
+KC_BSLS		// \ key
+KC_SCLN		// (;) key
+KC_QUOT		// (') key
+KC_GRV		// (`) key
+KC_COMM		// (,) key
+KC_DOT		// (.) key
+KC_SLSH		// / key
 
 Function Keys
 -------------
@@ -118,10 +118,10 @@ KC_PGUP		// Page Up key
 KC_DEL		// Delete key
 KC_END		// End key (move to end of line/document)
 KC_PGDN		// Page Down key
-KC_RGHT	        // Right arrow key
-KC_LEFT         // Left arrow key
-KC_DOWN         // Down arrow key
-KC_UP           // Up arrow key
+KC_RGHT	    // Right arrow key
+KC_LEFT     // Left arrow key
+KC_DOWN     // Down arrow key
+KC_UP       // Up arrow key
 
 Numpad
 --------
@@ -160,7 +160,7 @@ KC_ASTR		// Asterisk (*)
 KC_LPRN		// Left parenthesis (
 KC_RPRN		// Right parenthesis )
 KC_UNDS		// Underscore (_)
-KC_PLUS         // Plus sign (+)
+KC_PLUS     // Plus sign (+)
 KC_LCBR		// Left curly brace ({)
 KC_RCBR		// Right curly brace (})
 KC_PIPE		// Pipe character (|)
@@ -172,8 +172,8 @@ KC_QUES		// Question mark (?)
 
 International Keys
 ------------------
-KC_NUHS		// Non-US Hash key
-KC_NUBS		// Non-US Backslash key
+KC_NUHS		    // Non-US Hash key
+KC_NUBS		    // Non-US Backslash key
 KC_APP          // Application/Context menu key
 KC_INT1         // International 1 (RO key on Japanese keyboards)
 KC_INT2       	// International 2 (Kana key on Japanese keyboards)
@@ -196,8 +196,8 @@ KC_LANG9        // Language 9 key
 
 Consumer/Media Keys
 -------------------
-KC_MUTE         // Mute audio output
-KC_VOLU         // Increase volume
+KC_MUTE     // Mute audio output
+KC_VOLU     // Increase volume
 KC_VOLD		// Decrease volume
 KC_MNXT		// Next track/song
 KC_MPRV		// Previous track/song
@@ -209,13 +209,13 @@ KC_MRWD		// Rewind
 
 Special/Internal Keys
 ---------------------
-KC_NO		   	// No key / do nothing
-KC_TRNS		   	// Transparent / pass through to lower layer
-QK_REBOOT	   	// Reset the keyboard firmware
-QK_BOOT		   	// Enter bootloader mode for firmware update
+KC_NO		   	    // No key / do nothing
+KC_TRNS		   	    // Transparent / pass through to lower layer
+QK_REBOOT	   	    // Reset the keyboard firmware
+QK_BOOT		   	    // Enter bootloader mode for firmware update
 QK_DEBUG_TOGGLE	   	// Enable debug mode
-KC_GESC		   	// Grave ESC (ESC on tap, ~` on press)
-KC_GESC		   	// Grave ESC (ESC on tap, ~` on press)
+KC_GESC		   	    // Grave ESC (ESC on tap, ~` on press)
+KC_GESC		   	    // Grave ESC (ESC on tap, ~` on press)
 
 RGB Control Keys
 ----------------
@@ -232,11 +232,11 @@ UG_NEXT			// Solid color mode
 
 LED Control Keys
 ----------------
-BL_TOGG			// Toggle LED on/off
-BL_UP			// Increase LED brightness
-BL_DOWN			// Decrease LED brightness
+BL_TOGG			    // Toggle LED on/off
+BL_UP			    // Increase LED brightness
+BL_DOWN			    // Decrease LED brightness
 BL_ON / BL_STEP		// keycode depends on desired behavior
-BL_BRTG			// Breathing LED animation mode
+BL_BRTG			    // Breathing LED animation mode
 
 Leader Key
 ------------
@@ -244,13 +244,13 @@ QK_LEAD		// starts a QMK leader sequence
 
 Layer Keys (require arguments)
 ------------------------------
-MO(layer)		// Activate layer while held
-DF(layer)		// Set default/base layer
-LM(layer, modifier)	// Activate layer with modifier keys
-LT(layer, key)		// Activate layer on hold, tap key on press
-TG(layer)		// Toggle layer on/off
-TO(layer)		// Switch to specific layer
-TT(layer)		// Toggle layer on double tap, momentary on hold
+MO(layer)		        // Activate layer while held
+DF(layer)		        // Set default/base layer
+LM(layer, modifier)	    // Activate layer with modifier keys
+LT(layer, key)		    // Activate layer on hold, tap key on press
+TG(layer)		        // Toggle layer on/off
+TO(layer)		        // Switch to specific layer
+TT(layer)		        // Toggle layer on double tap, momentary on hold
 
 Mod Tap
 ---------
@@ -258,27 +258,26 @@ MT(mod, key)		// Hold for modifier, tap for key
 
 Macro & Sequence Commands
 -------------------------
-wait_ms(100);  		// Add delay in milliseconds between keypresses
+wait_ms(100);  		    // Add delay in milliseconds between keypresses
 SEND_STRING("text");    // Type out a string character by character (auto-shifts capitals)
 
 FRC Programming Macros
-----------
-LCTL(LALT(KC_B))	// Build
-LCTL(LALT(KC_D))	// Deploy
-LCTL(LALT(KC_S))	// Simulate
-LCTL(LALT(KC_G))	// Debug
-LCTL(LALT(KC_R))  	// Start RioLog
-LCTL(LALT(KC_P))  	// Open Driver Station
-LCTL(LALT(KC_T))  	// Terminal
-LCTL(LALT(KC_E))  	// Save All Files
-LCTL(LALT(KC_M))  	// Start Shuffleboard
-LCTL(LALT(KC_F))  	// Git Pull
-LCTL(LALT(KC_H))  	// Git Push
-LCTL(LALT(KC_C))  	// Commit
-LCTL(LALT(KC_W))  	// File Browser
-LCTL(LALT(KC_L))  	// Camera stream / Limelight
-LCTL(LALT(KC_T))  	// Test Robot Code
-LCTL(LALT(KC_Q))  	// Stop Robot Code
+----------------------
+KC_LCTL(KC_LALT(KC_B))    // Build Robot Code
+LCTL(LALT(KC_D))          // Deploy Robot Code
+LCTL(LALT(KC_S))          // Simulate Robot Code
+LCTL(LALT(KC_G))          // Debug Robot Code
+LCTL(LALT(KC_R))          // Start RioLog
+LCTL(LALT(KC_P))          // Open WPILib Tool
+LCTL(LALT(KC_T))          // Test Robot Code
+LCTL(LALT(KC_X))          // Cancel/Stop WPILib Task
+LCTL(LALT(KC_E))          // Save All Files
+LCTL(LALT(KC_M))          // Start Shuffleboard
+LCTL(LALT(KC_F))          // Git Pull
+LCTL(LALT(KC_H))          // Git Push
+LCTL(LALT(KC_C))          // Git Commit
+LCTL(LALT(KC_E))          // Open File Explorer
+LCTL(LALT(KC_Q))          // Open Terminal
 
 Limelight Macros [when you press the key that has the IP adress assigned to it, open the browser and press the key to instantly paste it into the browser]
 ----------------
@@ -289,12 +288,13 @@ SEND_STRING("10.51.99.13:5801")		// Right Limelight
 
 Driver Station Macros
 ---------------------
-LCTL(LALT(KC_E))	// Enable
-LCTL(LALT(KC_D))	// Disable
-LCTL(LALT(KC_T))	// Switch Mode: Teleop
-LCTL(LALT(KC_A))	// Switch Mode: Auto
-LCTL(LALT(KC_S))	// Switch Mode: Test
-LCTL(LALT(KC_Q))	// E-Stop
-LCTL(LALT(KC_R))	// Start DS data logging
-LCTL(LALT(KC_X))	// Stop DS data logging
-LCTL(LALT(KC_L))	// Dashboard Refresh
+KC_LBRC(KC_RBRC(KC_BSLS))	// Enable
+LCTL(LALT(KC_D))	        // Disable
+LCTL(LALT(KC_T))	        // Switch Mode: Teleop
+LCTL(LALT(KC_A))	        // Switch Mode: Auto
+LCTL(LALT(KC_S))	        // Switch Mode: Test
+KC_SPC          	        // E-Stop
+KC_BSPC                     // A-Stop
+LCTL(LALT(KC_R))	        // Start DS data logging
+LCTL(LALT(KC_X))	        // Stop DS data logging
+LCTL(LALT(KC_L))	        // Dashboard Refresh
