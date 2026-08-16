@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 QMK Keycodes (KC) Reference
 This file lists all available keycodes in the KC namespace for easy reference
  

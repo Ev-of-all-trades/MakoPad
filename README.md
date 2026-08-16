@@ -1,18 +1,15 @@
 # MakoPad
-This is a 6 key macropad that I designed in KiCad and is programmed with QMK. It features a 2.8" LCD display, 6 hot-swappable keys, a rotary encoder, and 2 buttons to switch the layers. This Project has been made specially for Rohan Patel and Cyrus Contractor to help them with FRC Programming. 
+This is a 6 key macropad that I designed in KiCad and is programmed with QMK. It features a 2.8" LCD display, 6 hot-swappable keys, a rotary encoder, and 2 buttons to switch the layers. This Project has been made specially for programmers on FRC 5199  Robot Dolphins From Outer Space to help them with FRC Programming. 
 
 PCB and Schematic
 -----------------------------------------------------
-<img width="2078" height="1543" alt="image" src="https://github.com/user-attachments/assets/92ee47e6-2d54-49a4-b359-50bd2f3b2339" />
+<img width="2223" height="1600" alt="image" src="https://github.com/user-attachments/assets/664de750-03a9-413b-8121-444d038ea296" />
 <img width="3290" height="1649" alt="image" src="https://github.com/user-attachments/assets/26af7d6d-4ce1-476b-a800-9822942498cc" />
 
-Below is are pictures of some of the assemblies I made in Fusion 360.
+Below is A picture of the assembly I made in Fusion 360.
 ------------------------------------------------------------------------------------
-PCB Assembly
-<img width="2263" height="1373" alt="image" src="https://github.com/user-attachments/assets/aed1f652-3dd8-4e57-ba46-faaf52856536" />
-
-Full PCB Assembly [mind the crappy screen model, i couldn't find a better one since there wasn't any for the specific onw i wanted to use]
-<img width="2356" height="1253" alt="image" src="https://github.com/user-attachments/assets/54f817a4-e1f1-4183-9e54-34b0d2069917" />
+PCB Assembly [mind the crappy displau model, i couldn't find a better one since there wasn't any for the specific one i wanted to use]
+<img width="2282" height="1468" alt="image" src="https://github.com/user-attachments/assets/a0eaaf5a-b31b-4a60-b94b-13b90e0ab802" />
 
 Here is the plan for developing the programming
 --------------------------------------------------
